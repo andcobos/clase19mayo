@@ -1,7 +1,7 @@
-import { OrdenEntity } from './orden.entity';
+import { Orden } from './orden.entity';
 
 describe('OrdenEntity', () => {
   it('should be defined', () => {
-    expect(new OrdenEntity()).toBeDefined();
+    expect(new Orden()).toBeDefined();
   });
 });
