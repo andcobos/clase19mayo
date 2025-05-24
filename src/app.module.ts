@@ -1,15 +1,18 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Orden } from './ordenes/orden.entity';
-import { Cliente } from './clientes/cliente.entity';
-import { Producto } from './productos/producto.entity';
-import { ProductosModule } from './productos/productos.module';
+import { Orden } from './avanzado1/ordenes/orden.entity';
+import { Cliente } from './avanzado1/clientes/cliente.entity';
+import { Producto } from './avanzado1/productos/producto.entity';
+import { ProductosModule } from './avanzado1/productos/productos.module';
 import { ComentariosModule } from './avanzado3/comentarios/comentarios.module';
-import { ProductosModule } from './productos/productos.module';
+import { ProductosModule } from './avanzado3/productos/productos.module';
 import { OrdenesModule } from './ordenes/ordenes.module';
-import { ClientesModule } from './clientes/clientes.module';
+import { Clientes2Module } from './clientes2/clientes2.module';
 import { ComentariosModule } from './avanzado3/comentarios/comentarios.module';
-import { ProductosModule } from './productos/productos.module';
+import { ProductosModule } from './avanzado3/productos/productos.module';
+import { ProductoModule } from './intermedio/producto/producto.module';
+import { ClienteModule } from './intermedio/cliente/cliente.module';
+
 
 @Module({
   imports: [
@@ -25,10 +28,12 @@ import { ProductosModule } from './productos/productos.module';
       synchronize: true,
     }),
     OrdenesModule,
-    ClientesModule,
+    ClienteModule,
     ProductosModule,
     Clientes2Module,
     ComentariosModule,
+    ProductoModule,
+    ClienteModule,
   ],
 })
 export class AppModule {}
