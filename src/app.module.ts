@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Orden } from './ordenes/orden.entity';
-import { Cliente } from './clientes/cliente.entity';
-import { Producto } from './productos/producto.entity';
-import { ProductosModule } from './productos/productos.module';
-import { OrdenesModule } from './ordenes/ordenes.module';
-import { ClientesModule } from './clientes/clientes.module';
+import { Orden } from './avanzado1/ordenes/orden.entity';
+import { Cliente } from './avanzado1/clientes/cliente.entity';
+import { Producto } from './avanzado1/productos/producto.entity';
+import { ProductosModule } from './avanzado1/productos/productos.module';
+import { OrdenesModule } from './avanzado1/ordenes/ordenes.module';
+import { ClientesModule } from './avanzado1/clientes/clientes.module';
 
 @Module({
   imports: [
@@ -15,8 +15,8 @@ import { ClientesModule } from './clientes/clientes.module';
       port: 5432,
       username: 'postgres',
       // Poner su contraseña y el nombre de la bd
-      password: 'conraseña',
-      database: 'nombre_base_datos',
+      password: 'Colita2010',
+      database: 'clase19mayo',
       entities: [Orden, Cliente, Producto],
       synchronize: true,
     }),

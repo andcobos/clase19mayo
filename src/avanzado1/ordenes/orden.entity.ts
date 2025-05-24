@@ -2,8 +2,8 @@ import {
   Entity, PrimaryGeneratedColumn, Column,
   ManyToOne, ManyToMany, JoinTable, CreateDateColumn
 } from 'typeorm';
-import { Cliente } from 'src/clientes/cliente.entity';
-import { Producto } from 'src/productos/producto.entity';
+import { Cliente } from 'src/avanzado1/clientes/cliente.entity';
+import { Producto } from 'src/avanzado1/productos/producto.entity';
 
 @Entity()
 export class Orden {

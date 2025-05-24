@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToMany } from 'typeorm';
-import { Orden } from 'src/ordenes/orden.entity';
+import { Orden } from 'src/avanzado1/ordenes/orden.entity';
 
 @Entity()
 export class Producto {
