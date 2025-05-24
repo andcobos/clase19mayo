@@ -4,7 +4,7 @@ import { Orden } from './ordenes/orden.entity';
 import { Cliente } from './clientes/cliente.entity';
 import { Producto } from './productos/producto.entity';
 import { ProductosModule } from './productos/productos.module';
-import { ComentariosModule } from './comentarios/comentarios.module';
+import { ComentariosModule } from './avanzado3/comentarios/comentarios.module';
 import { ProductosModule } from './productos/productos.module';
 import { OrdenesModule } from './ordenes/ordenes.module';
 import { ClientesModule } from './clientes/clientes.module';

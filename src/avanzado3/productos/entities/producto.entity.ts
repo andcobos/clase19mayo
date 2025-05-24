@@ -1,5 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
-import { Comentario } from '../../comentarios/entities/comentario.entity';
+import { Comentario } from '../../avanzado3/comentarios/entities/comentario.entity';
 
 @Entity('productos')
 export class Producto {
