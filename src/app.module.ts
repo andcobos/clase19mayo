@@ -6,7 +6,6 @@ import { Producto } from './productos/producto.entity';
 import { ProductosModule } from './productos/productos.module';
 import { OrdenesModule } from './ordenes/ordenes.module';
 import { ClientesModule } from './clientes/clientes.module';
-import { Clientes2Module } from './clientes2/clientes2.module';
 
 @Module({
   imports: [
@@ -16,8 +15,8 @@ import { Clientes2Module } from './clientes2/clientes2.module';
       port: 5432,
       username: 'postgres',
       // Poner su contraseña y el nombre de la bd
-      password: 'conraseña',
-      database: 'nombre_base_datos',
+      password: 'Colita2010',
+      database: 'clase19mayo',
       entities: [Orden, Cliente, Producto],
       synchronize: true,
     }),
