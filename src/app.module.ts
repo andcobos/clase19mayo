@@ -6,10 +6,8 @@ import { Producto } from './avanzado1/productos/producto.entity';
 import { ProductosModule } from './avanzado1/productos/productos.module';
 import { ComentariosModule } from './avanzado3/comentarios/comentarios.module';
 import { ProductosModule } from './avanzado3/productos/productos.module';
-import { OrdenesModule } from './ordenes/ordenes.module';
+import { OrdenesModule } from './avanzado1/ordenes/ordenes.module';
 import { Clientes2Module } from './clientes2/clientes2.module';
-import { ComentariosModule } from './avanzado3/comentarios/comentarios.module';
-import { ProductosModule } from './avanzado3/productos/productos.module';
 import { ProductoModule } from './intermedio/producto/producto.module';
 import { ClienteModule } from './intermedio/cliente/cliente.module';
 
